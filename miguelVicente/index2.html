@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Página 2</title>
+</head>
+<body>
+    
+    <button id="goToPage1">Voltar para Página 1</button>
+
+    <script>
+        document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index1.html";
+        };
+    </script>
+
+
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+
+    <h2 class="Cadastro">Contato</h2>
+
+
+    <form class="formulario" action="/submit" method="post">
+    <label for="nome">Nome</label>
+    <input type="text" id="home" name="nome" placeholder="Digite seu nome" required><br>
+    <br>
+
+
+    <label for="email">Email</label>
+    <input type="text" id="home" name="email" placeholder="Digite seu email" required><br>
+    <br>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="home" name="senha" placeholder="Digite sua senha" required><br>
+    <br>
+
+    <label for="genero">Gênero</label><br>
+    <br>
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" id="feminino" name="genero" value="feminino" required>
+    <br>
+
+    <label for="cidade">Cidade</label><br>
+    <input type="text" id="home" name="email" placeholder="Digite sua cidade" required><br>
+    <br>
+
+    <label for="exampleFormControlTextarea1" class="form-label">Digite sua mensagem</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></Área de texto>
+
+    <button>Enviar</button>
+
+     </form>
+</div>
+
+</body>
+</html>
+</body>
+</html>
